@@ -1,0 +1,104 @@
+body {
+    background: gray;
+}
+div {
+    background: white;
+    padding: 5%;
+    width: 100%;
+    margin: auto auto;
+}
+button {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+button:hover {
+    cursor: pointer;
+}
+.btn-add {
+    padding: 2%;
+    width: 200px;
+    background: #c63928;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+.btn-start {
+    width: 60px;
+    padding: 5px 10px;
+    color: #4771e4;
+    background-color: #fcd835;
+    outline: none;
+    border: 2px solid #4771e4;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    font-size: 1em;
+    height: 50px;
+    width: 70px;
+
+}
+.btn-start:hover {
+    color: #fcd835;
+    background-color: #4771e4;
+    border: none;
+}
+.btn-login {
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    outline: none;
+    border-radius: 40%;
+    width: 90px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif; 
+    /* font-family: 'Gugi', cursive; */
+    color: white;
+    background: linear-gradient(to right, #5cd1d6, #9ed38c);
+    /* background-color: #5fd0d0; */
+    height: 70px;
+    width: 200px;
+}
+.btn-sign-up {
+    padding: 5px 20px;
+    color: #6749ea;
+    border: 2px solid #6749ea;
+    background-color: white;
+    border-radius: 15%;
+    font-family: 'Montserrat', sans-serif; 
+    height: 70px;
+    width: 200px;
+}
+.btn-sign-up:hover {
+    color: white;
+    background-color: #6749ea;
+    border: none;
+}
+.btn-sub{
+padding: 10px 20px;
+color: white;
+background-color: #f6ac32;
+outline: none;
+border: none;
+border: 1px solid  #82550d;
+width: 200px;
+height: 80px;
+
+}
+.btn-twitter {
+    background-color: inherit;
+    padding: 15px;
+    color: #37a1f3;
+    font-size: 20px;
+    border-radius: 100%;
+    border: 2px solid #37a1f3;
+    width: 100px;
+    height: 100px;
+}
+.btn-twitter:hover {
+    background-color: #37a1f3;
+    color: white;
+    border: none;
+}

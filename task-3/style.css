@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+    background: linear-gradient(to right, #5cd1d6, #9ed38c);
+    width: 100%;
+}
+form {
+    width: 40%;
+    height: 400px;
+    background: linear-gradient(to right, #5cd1d6, #7d9675);
+    
+    margin: 10% auto;
+    
+
+}
+input, label {
+    display: block;
+    width: 100%;
+   
+}
+input {
+    margin-bottom: 4%;
+    width: 80%;
+}
+[type="submit"] {
+    width: 20%;
+}
