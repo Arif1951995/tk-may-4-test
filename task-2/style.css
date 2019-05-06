@@ -5,25 +5,37 @@ h1 {
   text-align: center;
   font-weight: bold;
   
+  
   font-family: 'Montserrat', sans-serif;
   background-color: #eceff1;   
+}
+div.flags {
+    display: flex;
+    justify-content: center;
+    
+    align-items: cen;
+    flex-wrap: wrap;
+    align-items: center;
+    
 }
 div.pak-flag {
     width: 300px;
     height: 200px;
     display: flex;
-    
+  
    
 }
-div.white {
+div.pak-flag  div.white {
     background: white;
-    width: 20%;
+    flex: 1;
+   
     
    
 }
-div.green {
+div.pak-flag  div.green {
     background: #1a401c;
-    width: 80%;
+    flex: 3;
+   
 }
 .fa-star-and-crescent {
     color: white;
@@ -33,14 +45,7 @@ div.green {
     top: 50px;
     left: 50px;
 }
-div.flags, .row-2 {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: ;
-    align-items: space-around;
-    margin: 10%;
-    
-}
+
 div.turkey-flag {
     width: 300px;
     height: 200px;
@@ -81,9 +86,8 @@ div.spain-flag .yellow {
     height: 60%;
     margin: 0 auto;
 }
-.row-1, row-2 {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
+
+.flag {
+ margin: 10px;
 }
 
