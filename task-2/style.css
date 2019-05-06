@@ -86,6 +86,10 @@ div.spain-flag .yellow {
     height: 60%;
     margin: 0 auto;
 }
+div.spain-flag .yellow .spain-logo {
+    width: 30%;
+    margin: 3% 10%;
+}
 
 .flag {
  margin: 10px;
